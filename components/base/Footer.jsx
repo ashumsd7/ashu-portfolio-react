@@ -41,11 +41,12 @@ function Footer() {
                       class="shadow-sm p-3 focus:ring-indigo-500w-full lg:w-auto focus:border-indigo-500 block w-full sm:text-sm border-gray-300 rounded-md"
                       placeholder="you@example.com"
                     />
-                    <button type="button" class="inline-flex nw-full mx-2  border-white lg:w-auto whitespace-nowrap items-center px-4 py-2 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-
-
-  Button text
-</button>
+                    <button
+                      type="button"
+                      class="inline-flex nw-full mx-2  border-white lg:w-auto whitespace-nowrap items-center px-4 py-2 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                    >
+                      Button text
+                    </button>
                   </div>
                   <div className="text-sm text-center text-gray-200 ">
                     <span>We care about the protection of your data.</span>
