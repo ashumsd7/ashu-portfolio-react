@@ -1,7 +1,20 @@
 import React from "react";
+import Hero from "../components/base/Hero";
+import ProjectCard from "../components/reusable/project/ProjectCard.";
+import StatInfo from "../components/reusable/stats/StatInfo";
+import Projects from "../views/home/Projects";
+import Stats from "../views/home/Stats";
+import TimeLines from "../views/home/TimeLines";
 
 function index() {
-  return <h1 className="text-3xl text-red-300 font-bold underline">Hello world!</h1>;
+  return (
+    <>
+      <Hero />
+      <StatInfo />
+      <TimeLines />
+      <Projects />
+    </>
+  );
 }
 
 export default index;
