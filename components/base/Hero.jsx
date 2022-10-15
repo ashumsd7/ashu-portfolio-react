@@ -1,5 +1,6 @@
 import React from "react";
-
+import { FiDownload } from 'react-icons/fi';
+import { BsWhatsapp } from 'react-icons/bs';
 function Hero() {
   return (
     <>
@@ -167,7 +168,7 @@ function Hero() {
                       class="w-full flex items-center justify-center px-8 py-2 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
                     >
                       {" "}
-                      Resume{" "}
+                   <FiDownload className="mx-2"/>   Resume{" "}
                     </a>
                   </div>
                   <div class="mt-3 sm:mt-0 sm:ml-3">
@@ -176,7 +177,7 @@ function Hero() {
                       class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
                     >
                       {" "}
-                      Whatsapp{" "}
+                   <BsWhatsapp className="mx-2" />   Whatsapp{" "}
                     </a>
                   </div>
                 </div>
